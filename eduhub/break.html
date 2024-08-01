@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Break Time</title>
+    <link rel="stylesheet" href="break.css">
+</head>
+<body>
+    <h1>Break Time</h1>
+    <div class="activity-container">
+        <h2>What would you like to do?</h2>
+        <button onclick="startActivity('Math Quiz')">Math Quiz</button>
+        <button onclick="startActivity('Aptitude')">Aptitude</button>
+        <button onclick="startActivity('Fun Game')">Fun Game</button>
+        <button onclick="startActivity('Meditation Exercise')">Meditation Exercise</button>
+    </div>
+    <div class="timer-container">
+        <h2>Break Timer</h2>
+        <div id="timer">00:00:00</div>
+        <button onclick="startTimer()">Start Timer</button>
+        <button onclick="resetTimer()">Reset Timer</button>
+    </div>
+
+    <script src="break.js"></script>
+    <a href="complete.html">...</a>
+</body>
+</html>
